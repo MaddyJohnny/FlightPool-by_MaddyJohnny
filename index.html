@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FlightPool - мы сближаем города, вы - живёте там, где хотите</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<div class="header-max">
+		<div class="container">
+			<header class="header" id="header">
+				<a href="index.html" class="logo wow animate__animated animate__fadeInLeft">
+					<img src="images/logo2.png" alt="FlightPool" class="logo-img">
+				</a>
+				<a href="#" class="header_link wow animate__animated animate__fadeInDown" data-wow-delay="0.2s">
+					<p class="header-text">Управление бронированием</p>
+				</a>
+				<a href="#promotions" class="header_link wow animate__animated animate__fadeInDown" data-wow-delay="0.3s">
+					<p class="header-text">Акции</p>
+				</a>
+				<a href="#contacts" class="header_link wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
+					<p class="header-text">Контакты</p>
+				</a>
+		        <a href="login.html" class="footer-link wow animate__animated animate__fadeInDown" data-wow-delay="0.5s"><button class="button button-primary">
+		          <img src="images/user-icon.svg" alt="user" class="button-icon"/>
+		          <span class="button-text">Войти</span>
+		        </button></a>
+			</header>
+		</div>
+	</div>
+
+	<hr class="hr-book-projects">
+
+	<div class="book-max">
+		<div class="container">
+			<div class="book-title">
+				<p class="book-title-text wow animate__animated animate__fadeIn" data-wow-delay="0.5s">FlighPool - самые выгодные авиаперелёты!</p>
+				<p class="book-subtitle-text wow animate__animated animate__fadeIn" data-wow-delay="0.7s">Проверьте сами</p>
+				<div class="book wow animate__animated animate__fadeIn" data-wow-delay="0.8s">
+					<input type="text" name="book-from" id="book-from" placeholder="Откуда" required="required">
+					<input type="text" name="book-to" id="book-to" placeholder="Куда" required="required">
+					<input type="text" name="book-date-to" id="book-date-to" placeholder="Когда" onfocus="(this.type='date')" onblur="(this.type='text')" required="required">
+					<input type="text" name="book-date-from" id="book-date-from" placeholder="Обратно" onfocus="(this.type='date')" onblur="(this.type='text')" required="required">
+					<p><select name="select-pass" id="select-pass" required="required">
+						<option selected value="s1">1 взрослый</option>
+						<option value="s2">2 взрослых</option>
+						<option value="s3">1 взрослый, 1 ребенок</option>
+						<option value="s4">2 взрослых, 1 ребенок</option>
+						<option value="s5">2 взрослых, 2 ребенка</option>
+					</select></p>
+					<input type="submit" value="Найти билеты "class="button-book">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<hr class="hr-book-projects">
+
+	<section class="section projects wow animate__animated animate__fadeIn" data-wow-delay="0.9s">
+		<div class="container">
+			<div class="swiper">
+			  <div class="swiper-wrapper">
+			    <div class="swiper-slide">
+			    	<div class="projects-slide">
+						<img src="images/A320neo.jpg" alt="Airbus A320neo" class="project-image">
+						<div class="project-text">
+							<h3 class="project-title">Наш авиапарк</h3>
+							<div class="project-time">
+								<img src="images/airplane.png" alt="Модель" class="project-icon">
+								<div class="project-description">
+									<h4 class="project-subtitle">Модель</h4>
+									<p class="project-paragraph">Airbus A320neo</p>
+								</div>
+							</div>
+							<div class="project-cost">
+								<img src="images/hangar.png" alt="Количество" class="project-icon">
+								<div class="project-description">
+									<h4 class="project-subtitle">Количество</h4>
+									<p class="project-paragraph">24 шт.</p>
+								</div>
+							</div>
+							<div class="project-feedback">
+								<img src="images/description.png" alt="Описание" class="project-icon">
+								<div class="project-description">
+									<h4 class="project-subtitle">Краткое описание</h4>
+									<p class="project-paragraph">Улучшенная версия узкофезюляжных пассажирских A320. Оснащается двигателями с уменьшенным расходом топлива, а также пониженным уровнем шума, исходящим от них. Пассажиры обеспечены комфортными креслами, обурудованные мультимедиа системой.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+			    </div>
+			    <div class="swiper-slide">
+			    	<div class="projects-slide">
+						<img src="images/crew.png" alt="Персонал" class="project-image">
+						<div class="project-text">
+							<h3 class="project-title">Наш персонал</h3>
+							<div class="project-cost">
+								<img src="images/managers.png" alt="Количество" class="project-icon">
+								<div class="project-description">
+									<h4 class="project-subtitle">Количество</h4>
+									<p class="project-paragraph">189 человек</p>
+								</div>
+							</div>
+							<div class="project-feedback">
+								<img src="images/description.png" alt="Описание" class="project-icon">
+								<div class="project-description">
+									<h4 class="project-subtitle">Описание команды</h4>
+									<p class="project-paragraph">Наша команда - настоящие профессионалы своего дела. Они на этом собаку съели! Стюардессы и стюарды готовы помочь вам в любой ситуации, а пилоты, со стажем не менее 24 лет, вырвутся из любой турбулетности.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+			    </div>
+			    <div class="swiper-slide">
+			    	<div class="projects-slide">
+						<img src="images/airportVNUKOVO.jpg" alt="Велстрой" class="project-image">
+						<div class="project-text">
+							<h3 class="project-title">Базовый аэропорт</h3>
+							<div class="project-time">
+								<img src="images/airport.png" alt="Наименование" class="project-icon">
+								<div class="project-description">
+									<h4 class="project-subtitle">Наименование аэропорта</h4>
+									<p class="project-paragraph">Внуково</p>
+								</div>
+							</div>
+							<div class="project-feedback">
+								<img src="images/description.png" alt="Отзыв" class="project-icon">
+								<div class="project-description">
+									<h4 class="project-subtitle">Отзыв клиента</h4>
+									<p class="project-paragraph">Очень комфортабельный аэропорт, а особенно ВИП-зона компании "FlightPool". Закуски, напитки, места для отдыха - всё это включено в базовый ВИП-билет. Ну и хочется конечно отметить регистрацию не на стойке, а прямо на диване. К вам подсаживается менеджер, и вы вместе обсуждаете предстоящий полет.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+			    </div>
+			  </div>
+			  <div class="projects-pagination"></div>
+			</div>
+		</div>
+	</section>
+
+	<div class="promotions" id="promotions">
+		<div class="container">
+			<p class="action-promo wow animate__animated animate__fadeInDown" data-wow-delay="0.2s">Акции</p>
+			<section class="promo">
+				<div class="promo-slide wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+							<img src="images/promo1.jpg" alt="Акция: 5 билет со скидкой 30%" class="promo-image">
+							<div class="promo-text">
+									<div class="promo-description">
+										<h2 class="promo-subtitle">Возврат и обмен билетов</h2>
+										<p class="promo-paragraph">Пандемия изменила планы многих путешественников, но мы знаем, что она не будет длиться вечно.
+										Как только все это закончится, мы продолжим исследовать этот мир так, как мы привыкли.
+										Специальные правила, разработанные для этой сложной ситуации, помогут вам отменить поездку или отложить её на потом.</p>
+										<p class="promo-ps"></p>
+									</div>
+								</div>
+							</div>
+				<div class="promo-slide wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
+							<img src="images/promo2.jpg" alt="Акция: Посети Гранд-каньон, и получи чехол на чемодан с уникальным принтом" class="promo-image">
+							<div class="promo-text">
+									<div class="promo-description">
+										<h2 class="promo-subtitle">Лучшие предложения</h2>
+										<p class="promo-paragraph">Снова увидеть улицы, которые так много видели. Обнять своих близких и оглянуться назад, чтобы увидеть, 
+										через что вам пришлось пройти. И думать о новых мечтах, которые будут такими особенными!</p>
+										<p class="promo-ps"></p>
+									</div>
+								</div>
+							</div>
+				<div class="promo-slide wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+							<img src="images/promo3.jpg" alt="Акция: Совместный отдых с родителями" class="promo-image">
+							<div class="promo-text">
+									<div class="promo-description">
+										<h2 class="promo-subtitle">Видеться чаще</h2>
+										<p class="promo-paragraph">С начала января мы расширяем географию полетов по России, чтобы вы могли
+										чаще видитесь с близкими. Выбирайте нашу компанию, чтобы лететь туда, где вас всегда ждут.</p>
+										<p class="promo-ps"></p>
+									</div>
+								</div>
+							</div>
+				<div class="promo-slide wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
+							<img src="images/promo4.jpg" alt="Акция: При полете в Анталью, скидка на ВИП-билет 5%" class="promo-image">
+							<div class="promo-text">
+									<div class="promo-description">
+										<h2 class="promo-subtitle">Все снова включено</h2>
+										<p class="promo-paragraph">С 10 августа возобновим полеты в Турцию. Рейсы из Москвы в Анталию будут выполняться дважды
+										в день ежедневно, а рейсы по маршруту Москва-Даламан будут выполняться от трех до семи раз в неделю.</p>
+										<p class="promo-ps"></p>
+									</div>
+								</div>
+							</div>
+			</section>
+		</div>
+	</div>
+
+	<div class="subscribe-max">
+		<div class="container">
+			<section class="subscribe">
+				<div class="subscribe-form">
+					<p class="subscribe-title wow animate__animated animate__zoomIn">
+						Подпишитесь на нашу рассылку
+					</p>
+					<p class="subscribe-text">
+						Получайте первыми лучшие предложения и актуальные новости
+					</p>
+					<input type="email" name="subscribe-email-form" placeholder="Ваш адрес электронной почты" size="50" id="subscribe-email-form" required>
+					<input type="submit" name="subscribe-submit-button" id="subscribe-submit-button">
+					<p class="subscribe-ps">
+						Нажимая «Подписаться», я соглашаюсь с <a href="#conf-button" class="subscribe-confiden" >Политикой конфиденциальности</a>
+					</p>
+				</div>
+				<img src="images/subscribe.png" alt="Подписка" class="subscribe-img wow animate__animated animate__pulse">
+			</section>
+		</div>
+	</div>
+
+	<div class="footer-max">
+		<div class="container">
+			<footer class="footer">
+				<img src="images/logo2.png" alt="FlightPool" class="logo-img-footer">
+			        <nav class="footer-nav">
+			        <h3>О доверии</h3>
+			          <a class="footer-link" id="card-button">Принципы бронирования</a>
+			          <a class="footer-link" id="ur-button">Юридическая информация</a>
+			          <a class="footer-link" id="usl-button">Условия использования</a>
+			          <a class="footer-link" id="conf-button">Политика конфиденциальности</a>
+			        </nav>
+			        <div class="contacts" id="contacts">
+			        <h3>Контакты</h3>
+			        	<div class="contacts-phone">
+							<h4 class="contacts-title">Телефон</h4>
+							<a href="tel:+79852281337" class="link">8 (800) 100-10-10</a>
+						</div>
+						<div class="contacts-email">
+							<h4 class="contacts-title">Почта</h4>
+							<a href="mailto:azaza@gmail.ru" class="link">flightpoolavia@fpavia.ru</a>
+						</div>
+						<div class="social-links">
+				          <a href="" class="social-link"><img src="images/instagram.svg" alt="instagram"></a>
+				          <a href="#" class="social-link"><img src="images/facebook.svg" alt="facebook"></a>
+				          <a href="#" class="social-link"><img src="images/twitter.svg" alt="twitter"></a>
+				        </div>		        	
+			        </div>
+			</footer>
+		</div>
+
+	<div class="modal">
+  		<div class="modal-dialog">
+    		<div class="modal-header">
+    			<p class="modal-title">Основные принципы работы сервиса</p>
+      			<button class="close">&times;</button>
+    		</div>
+    		<div class="modal-body">
+      			<p class="modal-condition"> - Вы выбираете удобную дату перелета</p>
+      			<p class="modal-condition"> - Ожидание 50% бронирования рейса</p>
+      			<p class="modal-condition"> - Мы перерассчитываем стоимость билетов, и высылаем на контактные телефоны ссылку для возврата части средств</p>
+      		</div>
+      	</div>
+    </div>
+    <div class="modal-second">
+  		<div class="modal-dialog">
+    		<div class="modal-header">
+    			<p class="modal-title">Юридидическая информация</p>
+      			<button class="close-second">&times;</button>
+    		</div>
+    		<div class="modal-body">
+      			<p class="modal-condition">Под термином правовая информация в настоящей Концепции понимается массив правовых актов с содержащимися в них нормами права и тесно связанных с этими актами правоприменительных, нормативно - технических, научных и справочных материалов, охватывающих все сферы правовой деятельности</p>
+      		</div>
+      	</div>
+    </div>
+    <div class="modal-third">
+  		<div class="modal-dialog">
+    		<div class="modal-header">
+    			<p class="modal-title">Условия использования</p>
+      			<button class="close-third">&times;</button>
+    		</div>
+    		<div class="modal-body">
+      			<p class="modal-condition">Как правило, условия использования есть на сайтах компаний, которые предоставляют программное обеспечение или интернет-сервисы. Например, к таким сервисам можно отнести веб-браузеры, сервисы электронной коммерции, поисковые системы, социальные сети и приложения, позволяющие воспользоваться транспортом. Главное назначение условий использования — юридическое</p>
+      		</div>
+      	</div>
+    </div>
+    <div class="modal-fourth">
+  		<div class="modal-dialog">
+    		<div class="modal-header">
+    			<p class="modal-title modal-title-conf">Политика конфиденциальности</p>
+      			<button class="close-fourth">&times;</button>
+    		</div>
+    		<div class="modal-body">
+      			<p class="modal-condition">Политика конфиденциальности определяет основные цели и условия обработки персональных данных Пользователей Сайта и сведения о реализуемых требованиях к защите персональных данных Пользователей Сайта</p>
+      		</div>
+      	</div>
+    </div>
+
+<script src="js/wow.min.js" type="text/javascript"></script>
+<script src="js/swiper-bundle.min.js" type="text/javascript"></script>
+<script src="js/book-main.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>
